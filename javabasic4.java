@@ -7,7 +7,13 @@ public class javabasic4 {
         Scanner scan = new Scanner(System.in);
         int nilai;
         
-        System.out.println("input nilai");
+        System.out.println("=========================");
+        System.out.println("Nilai Mahasiswa Akhir");
+        System.out.println("Cek By Desi Oktavia");
+        System.out.println("=========================");
+        System.out.println();
+        System.out.print("input nilai Anda : ");
+        
         nilai = scan.nextInt();
 
         lihatnilai(nilai);
